@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Calculator';
+  src: url('fonts/calculator.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: #0f0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  max-width: 120px;
+  margin-top: 20px;
+  filter: invert(1);
+}
+
+.aporia-text {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 4em;
+  color: #0f0;
+  margin-bottom: 30px;
+}
+
+.aporia-video {
+  width: 80%;
+  max-width: 720px;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #0f0;
+}
+
+.radiation {
+  width: 100px;
+  filter: hue-rotate(90deg) brightness(1.2) contrast(1.5);
+  margin-top: 20px;
+}
